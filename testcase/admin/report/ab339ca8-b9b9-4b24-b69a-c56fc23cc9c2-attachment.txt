@@ -1,0 +1,11 @@
+INFO     log:rest_client.py:39 接口请求的地址>>>http://localhost:8080/admin/employee/login
+INFO     log:rest_client.py:40 接口请求的方法>>>POST
+INFO     log:rest_client.py:44 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+INFO     log:rest_client.py:48 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}

@@ -1,0 +1,22 @@
+INFO     log:rest_client.py:39 接口请求的地址>>>http://localhost:8080/admin/employee/login
+INFO     log:rest_client.py:40 接口请求的方法>>>POST
+INFO     log:rest_client.py:44 接口请求的json参数>>>
+{
+  "username": "admin",
+  "password": 123456
+}
+INFO     log:rest_client.py:48 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+INFO     log:rest_client.py:19 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 1,
+    "userName": "admin",
+    "name": "管理员",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MSwiZXhwIjoxNzA3NDc5NDQ3fQ.IHD9GMxbDoUBm9FLEJaI9ziv6Wb798omcEn6hXaFXxU"
+  }
+}

@@ -1,0 +1,19 @@
+logout:
+  # 账号名，密码
+  - request_info:
+      case_title: 添加员工接口
+      url: /admin/employee/logout
+      method: POST
+      headers:
+        Connection: keep-alive
+#      data: {id = 2}
+    case_info:
+      #接口参数 params, json, data
+      - params:
+        validate:
+          #返回的code
+          - equal: [$.code , 1]
+
+
+
+
