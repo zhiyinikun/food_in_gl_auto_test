@@ -1,0 +1,13 @@
+INFO     log:rest_client.py:39 接口请求的地址>>>http://localhost:8080/admin/employee/page/
+INFO     log:rest_client.py:40 接口请求的方法>>>GET
+INFO     log:rest_client.py:46 接口请求的params参数>>>
+{
+  "name": "冯源祥",
+  "page": "1",
+  "pageSize": "5"
+}
+INFO     log:rest_client.py:48 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": null
+}

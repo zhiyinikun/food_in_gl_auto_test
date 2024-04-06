@@ -1,0 +1,125 @@
+[2024-03-25 00:05:38,614][rest_client.py 39][INFO]: 接口请求的地址>>>http://localhost:8080/admin/employee/login
+[2024-03-25 00:05:38,614][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-03-25 00:05:38,616][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-03-25 00:05:38,616][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-03-25 00:05:39,300][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzExMzAzNTM4fQ.GojidcAgp0QeHdHbxq-WXLHfoKZ0V9E3c6mMwKGxiiA"
+  }
+}
+[2024-03-25 15:29:26,415][rest_client.py 39][INFO]: 接口请求的地址>>>http://localhost:8080/admin/employee/login
+[2024-03-25 15:29:26,438][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-03-25 15:29:26,439][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-03-25 15:29:26,439][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-03-25 15:29:33,378][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzExMzU4OTY2fQ.HICL8ehzjFzSAX0l4OYSFzMsLyQicwg1TVtnLLtLU24"
+  }
+}
+[2024-03-25 15:37:33,981][log_util.py 41][INFO]: ---测试开始---
+[2024-03-25 15:37:33,981][log_util.py 42][DEBUG]: ---测试结束---
+[2024-03-25 17:58:37,412][log_util.py 41][INFO]: ---测试开始---
+[2024-03-25 17:58:37,412][log_util.py 42][DEBUG]: ---测试结束---
+[2024-03-25 17:58:55,327][rest_client.py 39][INFO]: 接口请求的地址>>>http://localhost:8080/admin/employee/login
+[2024-03-25 17:58:55,328][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-03-25 17:58:55,329][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-03-25 17:58:55,329][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-03-25 17:58:56,994][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzExMzY3OTM1fQ.o134_obE0s8yOwZfC2tITlDgy0g20MgAdE9qMvdKxKg"
+  }
+}
+[2024-03-25 18:03:13,537][rest_client.py 39][INFO]: 接口请求的地址>>>http://localhost:8080/admin/employee/login
+[2024-03-25 18:03:13,540][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-03-25 18:03:13,541][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-03-25 18:03:13,542][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-03-25 18:03:13,929][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzExMzY4MTkzfQ.W7syyLRUPnoQjhOEJ1z5d8En0JfORj_8R7Mc_v8-ukA"
+  }
+}
+[2024-03-25 18:04:48,824][rest_client.py 39][INFO]: 接口请求的地址>>>http://localhost:8080/admin/employee/login
+[2024-03-25 18:04:48,827][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-03-25 18:04:48,837][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-03-25 18:04:48,838][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-03-25 18:24:45,537][rest_client.py 39][INFO]: 接口请求的地址>>>http://localhost:8080/admin/employee/login
+[2024-03-25 18:24:45,537][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-03-25 18:24:45,538][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-03-25 18:24:45,539][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-03-25 18:24:46,034][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzExMzY5NDg1fQ.PuSYIqaYvzg--r6e6T4BrWNkE-5hYpncYM0nAp697Ec"
+  }
+}

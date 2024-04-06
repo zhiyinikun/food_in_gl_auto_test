@@ -1,0 +1,13 @@
+INFO     log:rest_client.py:39 接口请求的地址>>>http://localhost:8080/admin/employee/logout
+INFO     log:rest_client.py:40 接口请求的方法>>>POST
+INFO     log:rest_client.py:48 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzA3OTM1MTg4fQ.hCdsusyMEd-64J_80OGeu27LlGb-3AIbmCrxeTlTeR8"
+}
+INFO     log:rest_client.py:19 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": null
+}
