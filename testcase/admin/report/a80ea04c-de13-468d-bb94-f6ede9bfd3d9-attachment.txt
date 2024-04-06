@@ -1,0 +1,93 @@
+INFO     log:rest_client.py:39 接口请求的地址>>>http://localhost:8080/admin/employee/page/
+INFO     log:rest_client.py:40 接口请求的方法>>>GET
+INFO     log:rest_client.py:46 接口请求的params参数>>>
+{
+  "name": "冯源祥",
+  "page": "1",
+  "pageSize": "5"
+}
+INFO     log:rest_client.py:48 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzExMzAyMTM3fQ.SVMfTfDOvfXzAjqshMoPqaoGncwHoxGMo07c0qoNGkg"
+}
+INFO     log:rest_client.py:19 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "total": 5,
+    "records": [
+      {
+        "id": 13,
+        "username": "cxkk123",
+        "name": "冯源祥005",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "777728288481950017",
+        "status": 1,
+        "createTime": "2024-03-11 21:04:34",
+        "updateTime": "2024-03-11 21:05:35",
+        "createUser": 1,
+        "updateUser": 1
+      },
+      {
+        "id": 9,
+        "username": "fyx032",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2024-02-11 23:19:46",
+        "updateTime": "2024-02-11 23:19:46",
+        "createUser": 2,
+        "updateUser": 2
+      },
+      {
+        "id": 4,
+        "username": "fyx03",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 0,
+        "createTime": "2024-02-09 00:05:04",
+        "updateTime": "2024-02-12 00:54:44",
+        "createUser": 2,
+        "updateUser": 1
+      },
+      {
+        "id": 3,
+        "username": "fyx02",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2024-01-31 23:09:54",
+        "updateTime": "2024-02-01 00:08:46",
+        "createUser": 2,
+        "updateUser": 1
+      },
+      {
+        "id": 2,
+        "username": "fyx",
+        "name": "冯源祥",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2023-12-26 16:15:59",
+        "updateTime": "2024-03-24 23:42:18",
+        "createUser": 1,
+        "updateUser": 2
+      }
+    ]
+  }
+}

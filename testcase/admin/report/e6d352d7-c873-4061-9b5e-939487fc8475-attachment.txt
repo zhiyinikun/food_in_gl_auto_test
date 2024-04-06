@@ -1,6 +1,0 @@
-INFO     log:rest_client.py:39 接口请求的地址>>>http://localhost:8080/admin/employee/2
-INFO     log:rest_client.py:40 接口请求的方法>>>GET
-INFO     log:rest_client.py:48 接口请求的headers参数>>>
-{
-  "Content-Type": "application/json"
-}
