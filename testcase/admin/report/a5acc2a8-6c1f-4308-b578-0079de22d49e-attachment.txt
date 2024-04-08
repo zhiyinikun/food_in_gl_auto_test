@@ -1,0 +1,21 @@
+INFO     log:rest_client.py:39 接口请求的地址>>>http://10.20.2.1:8081/admin/employee
+INFO     log:rest_client.py:40 接口请求的方法>>>POST
+INFO     log:rest_client.py:44 接口请求的json参数>>>
+{
+  "idNumber": "441423200105160031",
+  "name": "冯源祥02",
+  "phone": "17820064773",
+  "sex": "1",
+  "username": "fyx032"
+}
+INFO     log:rest_client.py:48 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+}
+INFO     log:rest_client.py:19 接口返回内容>>>
+{
+  "code": 0,
+  "msg": "'fyx032'已存在",
+  "data": null
+}

@@ -1,0 +1,550 @@
+[2024-04-07 21:57:46,907][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 21:57:46,908][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 21:57:46,908][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-04-07 21:57:46,908][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 21:57:47,904][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+  }
+}
+[2024-04-07 21:57:47,946][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 21:57:47,946][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 21:57:47,947][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-04-07 21:57:47,947][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 21:57:47,959][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+  }
+}
+[2024-04-07 21:57:47,967][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 21:57:47,967][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 21:57:47,968][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "cxk",
+  "password": 123456
+}
+[2024-04-07 21:57:47,968][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 21:57:47,980][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 0,
+  "msg": "账号不存在",
+  "data": null
+}
+[2024-04-07 21:57:48,433][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 21:57:48,433][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 21:57:48,433][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "admin",
+  "password": 123456
+}
+[2024-04-07 21:57:48,433][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 21:57:48,445][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 1,
+    "userName": "admin",
+    "name": "管理员",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MSwiZXhwIjoxNzEyNTA1NDY4fQ.f1Ba_j2gkinsb3IsZ-xTSTwxLQim_mqmK8caYpkjNOY"
+  }
+}
+[2024-04-07 21:57:48,463][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/2
+[2024-04-07 21:57:48,464][rest_client.py 40][INFO]: 接口请求的方法>>>GET
+[2024-04-07 21:57:48,464][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+}
+[2024-04-07 21:57:48,524][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "username": "fyx",
+    "name": "冯源祥",
+    "password": "******",
+    "phone": "17820064773",
+    "sex": "1",
+    "idNumber": "441423200105160031",
+    "status": 1,
+    "createTime": "2023-12-26 16:15:59",
+    "updateTime": "2024-04-06 21:40:48",
+    "createUser": 1,
+    "updateUser": 2
+  }
+}
+[2024-04-07 21:57:48,537][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee
+[2024-04-07 21:57:48,537][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 21:57:48,537][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "idNumber": "441423200105160031",
+  "name": "冯源祥02",
+  "phone": "17820064773",
+  "sex": "1",
+  "username": "fyx032"
+}
+[2024-04-07 21:57:48,537][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+}
+[2024-04-07 21:57:48,683][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 0,
+  "msg": "'fyx032'已存在",
+  "data": null
+}
+[2024-04-07 21:57:48,711][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee
+[2024-04-07 21:57:48,711][rest_client.py 40][INFO]: 接口请求的方法>>>PUT
+[2024-04-07 21:57:48,711][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "id": 2,
+  "idNumber": "441423200105160031",
+  "name": "冯源祥",
+  "phone": "17820064773",
+  "sex": "1",
+  "username": "fyx"
+}
+[2024-04-07 21:57:48,712][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+}
+[2024-04-07 21:57:48,752][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": null
+}
+[2024-04-07 21:57:48,769][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/page/
+[2024-04-07 21:57:48,769][rest_client.py 40][INFO]: 接口请求的方法>>>GET
+[2024-04-07 21:57:48,769][rest_client.py 46][INFO]: 接口请求的params参数>>>
+{
+  "name": "冯源祥",
+  "page": "1",
+  "pageSize": "5"
+}
+[2024-04-07 21:57:48,770][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+}
+[2024-04-07 21:57:48,888][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "total": 5,
+    "records": [
+      {
+        "id": 13,
+        "username": "cxkk123",
+        "name": "冯源祥005",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "777728288481950017",
+        "status": 1,
+        "createTime": "2024-03-11 21:04:34",
+        "updateTime": "2024-03-11 21:05:35",
+        "createUser": 1,
+        "updateUser": 1
+      },
+      {
+        "id": 9,
+        "username": "fyx032",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2024-02-11 23:19:46",
+        "updateTime": "2024-02-11 23:19:46",
+        "createUser": 2,
+        "updateUser": 2
+      },
+      {
+        "id": 4,
+        "username": "fyx03",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 0,
+        "createTime": "2024-02-09 00:05:04",
+        "updateTime": "2024-02-12 00:54:44",
+        "createUser": 2,
+        "updateUser": 1
+      },
+      {
+        "id": 3,
+        "username": "fyx02",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2024-01-31 23:09:54",
+        "updateTime": "2024-02-01 00:08:46",
+        "createUser": 2,
+        "updateUser": 1
+      },
+      {
+        "id": 2,
+        "username": "fyx",
+        "name": "冯源祥",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2023-12-26 16:15:59",
+        "updateTime": "2024-04-07 21:57:49",
+        "createUser": 1,
+        "updateUser": 2
+      }
+    ]
+  }
+}
+[2024-04-07 21:57:48,901][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/status/1
+[2024-04-07 21:57:48,902][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 21:57:48,903][rest_client.py 46][INFO]: 接口请求的params参数>>>
+{
+  "id": 2
+}
+[2024-04-07 21:57:48,904][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+}
+[2024-04-07 21:57:48,920][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": null
+}
+[2024-04-07 21:57:48,938][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/logout
+[2024-04-07 21:57:48,938][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 21:57:48,938][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA1NDY3fQ.4ozyFRYAMnsO_nYqo4lnUVipk-xKuT1UWgkv2pSq0do"
+}
+[2024-04-07 21:57:49,032][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": null
+}
+[2024-04-07 22:14:56,411][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 22:14:56,412][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 22:14:56,413][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-04-07 22:14:56,413][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 22:14:56,431][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+  }
+}
+[2024-04-07 22:14:56,451][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 22:14:56,451][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 22:14:56,451][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "fyx",
+  "password": 123456
+}
+[2024-04-07 22:14:56,452][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 22:14:56,459][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "userName": "fyx",
+    "name": "冯源祥",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+  }
+}
+[2024-04-07 22:14:56,470][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 22:14:56,471][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 22:14:56,471][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "cxk",
+  "password": 123456
+}
+[2024-04-07 22:14:56,472][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 22:14:56,478][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 0,
+  "msg": "账号不存在",
+  "data": null
+}
+[2024-04-07 22:14:56,772][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/login
+[2024-04-07 22:14:56,772][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 22:14:56,772][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "username": "admin",
+  "password": 123456
+}
+[2024-04-07 22:14:56,773][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive"
+}
+[2024-04-07 22:14:56,780][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 1,
+    "userName": "admin",
+    "name": "管理员",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MSwiZXhwIjoxNzEyNTA2NDk2fQ.FXJfipLO5Y-dhSBwsQLncXI3kTD_HleRv8amXLn_AyM"
+  }
+}
+[2024-04-07 22:14:56,796][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/2
+[2024-04-07 22:14:56,797][rest_client.py 40][INFO]: 接口请求的方法>>>GET
+[2024-04-07 22:14:56,797][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+}
+[2024-04-07 22:14:56,806][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "id": 2,
+    "username": "fyx",
+    "name": "冯源祥",
+    "password": "******",
+    "phone": "17820064773",
+    "sex": "1",
+    "idNumber": "441423200105160031",
+    "status": 1,
+    "createTime": "2023-12-26 16:15:59",
+    "updateTime": "2024-04-07 21:57:49",
+    "createUser": 1,
+    "updateUser": 2
+  }
+}
+[2024-04-07 22:14:56,821][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee
+[2024-04-07 22:14:56,821][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 22:14:56,822][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "idNumber": "441423200105160031",
+  "name": "冯源祥02",
+  "phone": "17820064773",
+  "sex": "1",
+  "username": "fyx032"
+}
+[2024-04-07 22:14:56,823][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+}
+[2024-04-07 22:14:56,832][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 0,
+  "msg": "'fyx032'已存在",
+  "data": null
+}
+[2024-04-07 22:14:56,868][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee
+[2024-04-07 22:14:56,869][rest_client.py 40][INFO]: 接口请求的方法>>>PUT
+[2024-04-07 22:14:56,869][rest_client.py 44][INFO]: 接口请求的json参数>>>
+{
+  "id": 2,
+  "idNumber": "441423200105160031",
+  "name": "冯源祥",
+  "phone": "17820064773",
+  "sex": "1",
+  "username": "fyx"
+}
+[2024-04-07 22:14:56,869][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+}
+[2024-04-07 22:14:56,880][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": null
+}
+[2024-04-07 22:14:56,893][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/page/
+[2024-04-07 22:14:56,894][rest_client.py 40][INFO]: 接口请求的方法>>>GET
+[2024-04-07 22:14:56,894][rest_client.py 46][INFO]: 接口请求的params参数>>>
+{
+  "name": "冯源祥",
+  "page": "1",
+  "pageSize": "5"
+}
+[2024-04-07 22:14:56,894][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+}
+[2024-04-07 22:14:56,909][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": {
+    "total": 5,
+    "records": [
+      {
+        "id": 13,
+        "username": "cxkk123",
+        "name": "冯源祥005",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "777728288481950017",
+        "status": 1,
+        "createTime": "2024-03-11 21:04:34",
+        "updateTime": "2024-03-11 21:05:35",
+        "createUser": 1,
+        "updateUser": 1
+      },
+      {
+        "id": 9,
+        "username": "fyx032",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2024-02-11 23:19:46",
+        "updateTime": "2024-02-11 23:19:46",
+        "createUser": 2,
+        "updateUser": 2
+      },
+      {
+        "id": 4,
+        "username": "fyx03",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 0,
+        "createTime": "2024-02-09 00:05:04",
+        "updateTime": "2024-02-12 00:54:44",
+        "createUser": 2,
+        "updateUser": 1
+      },
+      {
+        "id": 3,
+        "username": "fyx02",
+        "name": "冯源祥02",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2024-01-31 23:09:54",
+        "updateTime": "2024-02-01 00:08:46",
+        "createUser": 2,
+        "updateUser": 1
+      },
+      {
+        "id": 2,
+        "username": "fyx",
+        "name": "冯源祥",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "phone": "17820064773",
+        "sex": "1",
+        "idNumber": "441423200105160031",
+        "status": 1,
+        "createTime": "2023-12-26 16:15:59",
+        "updateTime": "2024-04-07 22:14:57",
+        "createUser": 1,
+        "updateUser": 2
+      }
+    ]
+  }
+}
+[2024-04-07 22:14:56,925][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/status/1
+[2024-04-07 22:14:56,925][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 22:14:56,925][rest_client.py 46][INFO]: 接口请求的params参数>>>
+{
+  "id": 2
+}
+[2024-04-07 22:14:56,926][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+}
+[2024-04-07 22:14:56,935][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": null
+}
+[2024-04-07 22:14:56,949][rest_client.py 39][INFO]: 接口请求的地址>>>http://10.20.2.1:8081/admin/employee/logout
+[2024-04-07 22:14:56,949][rest_client.py 40][INFO]: 接口请求的方法>>>POST
+[2024-04-07 22:14:56,949][rest_client.py 48][INFO]: 接口请求的headers参数>>>
+{
+  "Connection": "keep-alive",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJlbXBJZCI6MiwiZXhwIjoxNzEyNTA2NDk2fQ.X7GuTAfcXLYqbgQ_igVqGjAB8w3qWVqNqUxmDWYdw-U"
+}
+[2024-04-07 22:14:56,955][rest_client.py 19][INFO]: 接口返回内容>>>
+{
+  "code": 1,
+  "msg": null,
+  "data": null
+}
